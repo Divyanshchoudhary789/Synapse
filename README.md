@@ -1,5 +1,3 @@
-`![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js) ![MongoDB](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=mongodb&logoColor=green)`
-
 # 🌐 Synapse - Professional Networking Platform
 
 **Synapse** is a full-stack, professional networking application designed to bridge the gap between opportunities and talent. Built with the **MERN Stack** and **Next.js**, it offers a seamless, high-performance experience for professionals to connect, share insights, and build their digital presence.
@@ -7,8 +5,8 @@
 ---
 
 ## 🚀 Live Demo & Deployment
-- **Frontend:** [https://synapse-s4g1.onrender.com]
-- **Backend:** [https://synapse-backend-ujiu.onrender.com]
+- **Frontend:** https://synapse-s4g1.onrender.com
+- **Backend:** https://synapse-backend-ujiu.onrender.com
 
 ---
 
@@ -47,4 +45,14 @@
 | **Deployment** | Render (Frontend & Backend) |
 
 ---
-`![Dashboard Screenshot](./screenshots/dashboard.png)`.
+# 👨‍💻 Author
+
+**Divyansh Choudhary**
+
+Full Stack Developer | MERN STACK Developer
+
+GitHub:  
+https://github.com/Divyanshchoudhary789
+
+LinkedIn:  
+https://www.linkedin.com/in/divyansh--choudhary/
