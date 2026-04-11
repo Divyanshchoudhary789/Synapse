@@ -1200,8 +1200,7 @@ function Profile() {
                 <div className=' h-full lg:w-110 '>
                     <div className='h-50 w-full bg-white border border-zinc-300 rounded-3xl p-6 flex flex-col gap-5 shadow-md'>
                         <div>Public profile and URL</div>
-                        <textarea className='w-full text-sm hide-scrollbar' disabled value={`${process.env.NEXT_PUBLIC_FRONTEND_URL}/user/profile/${router.query.userId}`}></textarea>
-                        <p className='text-xs'></p>
+                        <textarea className='h-full w-full text-sm hide-scrollbar' disabled value={`${process.env.NEXT_PUBLIC_FRONTEND_URL}/user/profile/${router.query.userId}`}></textarea>
                     </div>
                     <div className='w-full h-20 rounded-lg  bg-transparent flex mt-2 pl-3 gap-1'>
                         <img className='h-10 w-25' src="/Synapse_logo.png" />
