@@ -62,6 +62,7 @@ function CreatePost({ profilePicture, name }) {
         setOpenBodyEditor(false);
         setImages([]);
         setVideo(null);
+        setBody("");
         setImagesPreviewTab(false);
         setVideoPreviewTab(false);
     }
@@ -174,7 +175,7 @@ function CreatePost({ profilePicture, name }) {
                                 </svg>
                             </div>
                             {discardDialog === true ?
-                                <div className='absolute top-30 left-60 w-70 h-40 border-1 border-zinc-300 rounded-2xl bg-white z-50 shadow-sm'>
+                                <div className='absolute top-30 left-5 lg:left-60 w-70 h-40 border-1 border-zinc-300 rounded-2xl bg-white z-50 shadow-sm'>
                                     <div className='flex items-center justify-between border-b p-2 px-3'>
                                         <div className='text-lg'>Discard Changes</div>
                                         <div className='opacity-70 cursor-pointer hover:opacity-100' onClick={() => { setDiscardDialog(false) }}>
@@ -197,7 +198,7 @@ function CreatePost({ profilePicture, name }) {
                             <textarea className='w-full h-full text-lg px-3 outline-none' name="body" id="body" placeholder='What do you want to talk about?' value={body} onChange={(e) => { setBody(e.target.value) }} />
                         </div>
                         <div className='flex items-center justify-between mt-2 h-30 '>
-                            <div className='h-20 px-2'>
+                            <div className='h-20 w-100 lg:w-60 px-2'>
                                 {video && (<video src={URL.createObjectURL(video)} controls className="w-full h-full rounded-xl object-contain"></video>)}
                             </div>
                             <div className='flex gap-4  w-full '>
